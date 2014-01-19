@@ -80,6 +80,7 @@ public class HaseEffects extends JavaPlugin implements TabCompleter {
                 return false;
             }
             playEffect(loc, e);
+            sender.sendMessage(getFormat("formats.SuccessfulSet", true));
             return true;
         } else {
             if(args[0].equalsIgnoreCase("remove")) {
@@ -100,6 +101,7 @@ public class HaseEffects extends JavaPlugin implements TabCompleter {
                     return false;
                 }
                 removeEffect(loc);
+                sender.sendMessage(getFormat("formats.SuccessfulRemove", true));
                 return true;
             }
 

@@ -11,3 +11,5 @@ formats:
    InvalidWildCard: "&4Invalid Wild Card use set/remove"
    InvalidDataFile: "&4Your data file is invalid"
    InvalidEffect: "&4You have entered an invalid effect, if you wish to to see a list of effects see http://jd.bukkit.org/rb/apidocs/org/bukkit/Effect.html : or press tab during writing the command"
+   SuccessfulSet: "&aYou successfully set a particle location"
+   SuccessfulRemove: "&aYou successfully remove a particle location : You will still be able to see the particles till the server reloads/restarts"
