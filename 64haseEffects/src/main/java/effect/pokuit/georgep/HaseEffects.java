@@ -142,7 +142,7 @@ public class HaseEffects extends JavaPlugin implements TabCompleter {
     }
 
     public String getFormat(String s, boolean b, String[]... changes) {
-        String format = (b ? getFormat("prefix", false)+" " : "")+ChatColor.translateAlternateColorCodes('&', config.getString(s, ""));
+        String format = (b ? getFormat("prefix", false)+" " : "")+ ChatColor.translateAlternateColorCodes('&', config.getString(s, ""));
         for(String[] ch: changes) {
             if(ch.length != 2) continue;
             format = format.replace(ch[0], ch[1]);
