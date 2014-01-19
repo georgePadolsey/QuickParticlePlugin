@@ -1,0 +1,13 @@
+### If you are getting errors from Particles delete this file and run the server ###
+
+### delay in ticks (20 ticks per second)
+delay: 10
+
+formats:
+   Prefix: "&7<<&6Particles&7>>&r"
+   NotEnoughArguments: "&4You entered not enough arguments"
+   NotValidLocation: "&4You Entered an Invalid Location"
+   LocationNeeded: "&4A Location is needed to be entered!"
+   InvalidWildCard: "&4Invalid Wild Card use set/remove"
+   InvalidDataFile: "&4Your data file is invalid"
+   InvalidEffect: "&4You have entered an invalid effect, if you wish to to see a list of effects see http://jd.bukkit.org/rb/apidocs/org/bukkit/Effect.html : or press tab during writing the command"
